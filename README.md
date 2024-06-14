@@ -1,2 +1,2 @@
-# DDS19_logica2
+# DDS19_logica
 Trabalhando com lógica de programação
