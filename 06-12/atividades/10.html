@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-       let numeros = [];
-       let maiorNumero = -Infinity
-       let menorNumero = Infinity
+        let numeros = [];
+        let maiorNumero = -Infinity
+        let menorNumero = Infinity
 
-for(let i = 0; i < 10; i++) {
-   
-    let numero = prompt("Digite um número:");
-    numeros.push(Number(numero));
+        for (let i = 0; i < 10; i++) {
 
-    if (Number(numero) > maiorNumero){
-        maiorNumero = Number(numero);
-    }
+            let numero = prompt("Digite um número:");
+            numeros.push(Number(numero));
 
-     if (Number(numero) < menorNumero){
-        menorNumero = Number(numero);
-     }
-}
+            if (Number(numero) > maiorNumero) {
+                maiorNumero = Number(numero);
+            }
 
-console.log("O maior número é: " + maiorNumero);
-console.log("O menor número é: " + menorNumero);
+            if (Number(numero) < menorNumero) {
+                menorNumero = Number(numero);
+            }
+        }
+
+        console.log("O maior número é: " + maiorNumero);
+        console.log("O menor número é: " + menorNumero);
 
     </script>
 </body>
+
 </html>
